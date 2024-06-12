@@ -64,9 +64,13 @@ void main() {
 
   //using var
   var newValue = 10; //var identiies the type of data value;
-  print(newValue);
+  print(newValue); //its mutable ,meaining can be changed
+
+  //const and final are immutable.
 
   //using const
   const b = 10;
   print(b); //we cannot change the value of const variable.
+
+  // final value also cannot change.
 }
