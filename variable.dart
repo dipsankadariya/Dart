@@ -1,4 +1,4 @@
-import 'dart:html_common';
+import 'dart:io';
 
 void main() {
   //variables in dart
@@ -29,4 +29,44 @@ void main() {
 
   int someValue = 10;
   print(someValue);
+
+  //variable name should be made using camelcase
+  //example someValue, newValue, newNumbers etc
+
+  int firstValue = 20;
+  print(firstValue);
+  firstValue = firstValue + 90;
+  print(firstValue);
+
+  //strings
+  String greetings = "hello world";
+  print(greetings);
+  greetings = ' $greetings yoooo';
+
+  //well if you need to write the actual $ sign, we can use backslash
+  //using black slash  removes the $propery and prints $.
+
+  greetings = '\$12';
+  print(greetings);
+
+  //for new line
+  greetings = ''' Hello 
+  world ''';
+  print(greetings); //will print world in new line
+
+  //we can also use \n
+  greetings =
+      'hello \n world'; //this will print hello in one line, world in another line.
+  print(greetings);
+
+  //if we create a varibale suppose,  using int datatype,
+  //you cannot re asign anyother types of value except  int .
+
+  //using var
+  var newValue = 10; //var identiies the type of data value;
+  print(newValue);
+
+  //using const
+  const b = 10;
+  print(b); //we cannot change the value of const variable.
 }
