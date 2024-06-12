@@ -1,3 +1,5 @@
+import 'dart:html_common';
+
 void main() {
   //variables in dart
 
@@ -24,4 +26,7 @@ void main() {
 
   print(fullName);
   print(nickName);
+
+  int someValue = 10;
+  print(someValue);
 }
