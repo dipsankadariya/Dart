@@ -1,6 +1,3 @@
-import "dart:math";
-import "dart:io";
-
 void sayHi(String username, int age) {
   //username and age is  is  parameter.
   print("Hi ${username}. You are ${age} years old");

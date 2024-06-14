@@ -1,6 +1,3 @@
-import "dart:math";
-import "dart:io";
-
 void printHello() {
   print("hello dipsan, welcome");
 }

@@ -1,6 +1,3 @@
-import "dart:math";
-import "dart:io";
-
 void main() {
   List<int> favNum = [1, 3, 342, 342, 123, 123];
   //    0,1, 2,  3 , 4  ,5;
