@@ -1,24 +1,17 @@
 void main() {
-  // Data Types
-  // Numbers, Strings, Booleans, Lists, Maps, Dynamic
-
-  // Strings
+  //string
   String firstName = "Dipsan";
-  print("String: $firstName");
+  print(firstName);
 
-  // Integers
-  int myNum = 20;
-  print("Integer: $myNum");
+  //integers
+  int age = 20;
+  print(age);
 
-  // Doubles
-  double num = 19.95;
-  print("Double: $num");
+  //double
+  double gpa = 4.0;
+  print(gpa);
 
-  // Booleans
-  bool myBool = true;
-  print("Boolean: $myBool");
-
-  // Dynamic
-  dynamic fullName = "Dipsan kadariya";
-  print('Dynamic: $fullName');
+  //booleans
+  bool isadult = true;
+  print(isadult);
 }
